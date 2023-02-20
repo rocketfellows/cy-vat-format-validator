@@ -3,6 +3,7 @@
 namespace rocketfellows\CYVatFormatValidator\tests\unit;
 
 use PHPUnit\Framework\TestCase;
+use rocketfellows\CYVatFormatValidator\CYVatFormatValidator;
 
 class CYVatFormatValidatorTest extends TestCase
 {
