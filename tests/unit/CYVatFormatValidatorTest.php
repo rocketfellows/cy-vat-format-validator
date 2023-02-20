@@ -298,6 +298,14 @@ class CYVatFormatValidatorTest extends TestCase
                 'vatNumber' => 'CY1234567X',
                 'isValid' => false,
             ],
+            [
+                'vatNumber' => 'C12345678L',
+                'isValid' => false,
+            ],
+            [
+                'vatNumber' => 'Y12345678L',
+                'isValid' => false,
+            ],
         ];
     }
 }
